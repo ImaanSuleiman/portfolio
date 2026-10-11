@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Iman Suleman | Frontend Developer &amp; ML</title>
+  <meta name="description" content="Portfolio of Iman Suleman: CS student at FAST NUCES, frontend developer (React, JavaScript), machine learning and AI security projects, DataCamp certified AI Engineer for Developers Associate." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400;1,9..144,500&family=Source+Sans+3:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="preloader" id="preloader">
+    <div class="boot"><span id="bootText"></span><i class="bcaret">_</i></div>
+    <div class="pre-bar"><span></span></div>
+  </div>
+
+  <div class="scroll-progress" id="progress"></div>
+    <div class="grain"></div>
+
+  <header class="nav" id="nav">
+    <a href="#home" class="brand">Iman Suleman<span>.</span></a>
+    <button class="burger" id="burger" aria-label="Menu"><span></span><span></span></button>
+    <nav class="links" id="links">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#journey">Experience</a>
+      <a href="#certs">Certifications</a>
+      <a href="#contact" class="nav-cta">Hire me</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section id="home" class="hero">
+      <div class="hero-text">
+        <p class="eyebrow rv"><span class="pulse"></span> Final-semester CS student &middot; Open to internships</p>
+        <h1 class="rv d1">
+          <span class="line">Hi, I'm</span>
+          <span class="line grad">Iman Suleman</span>
+        </h1>
+        <p class="role rv d2">&gt; <span id="typed"></span><i class="caret">|</i></p>
+        <p class="lead rv d3">Frontend developer (React, JavaScript) with hands-on machine learning and AI security projects. I build clean interfaces on real APIs, and I understand what runs underneath: C++, operating systems and networking. DataCamp certified <b>AI Engineer for Developers (Associate)</b>.</p>
+        <div class="cta-row rv d4">
+          <a href="#projects" class="btn primary"><span>View projects</span><i class="bi bi-arrow-down-right"></i></a>
+          <a href="assets/ImanSuleman_CV.pdf" download class="btn ghost"><span>Download CV</span><i class="bi bi-download"></i></a>
+        </div>
+        <div class="socials rv d5">
+          <a href="https://github.com/ImaanSuleiman" target="_blank" rel="noopener" aria-label="GitHub"><i class="bi bi-github"></i></a>
+          <a href="https://www.linkedin.com/in/iman-suleman-ba6778347/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+          <a href="https://mail.google.com/mail/?view=cm&fs=1&to=iamiman.is04@gmail.com" target="_blank" rel="noopener" aria-label="Email on Gmail"><i class="bi bi-envelope-fill"></i></a>
+        </div>
+      </div>
+
+      <div class="hero-visual rv d2">
+        <div class="term">
+          <div class="term-bar"><i></i><i></i><i></i><span>iman.js</span></div>
+          <pre id="code"><code></code></pre>
+        </div>
+        <div class="avatar">
+          <div class="ring"></div>
+          <img src="assets/main.png" alt="Iman Suleman" />
+        </div>
+        <span class="chip c1"><i class="bi bi-filetype-jsx"></i> React</span>
+        <span class="chip c2"><i class="bi bi-award"></i> AI Certified</span>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <div class="sec-head rv"><p class="kicker">01 / about</p><h2>Who <em>I am</em></h2></div>
+      <div class="about-grid">
+        <div class="card about-card rv">
+          <p>I'm a final-semester <b>Computer Science</b> student at <b>FAST NUCES Islamabad</b> and a <b>frontend developer</b>. As a Web Developer Intern at <b>RISETech (NUST EME Campus)</b> I built React and JavaScript apps on real REST APIs.</p>
+          <p>I also build <b>machine learning</b> projects: a text classifier that compares six models on a public dataset, and my final year project <b>Kraken</b>, which tests how e-commerce AI agents can be attacked. I hold the DataCamp <b>AI Engineer for Developers Associate</b> certification.</p>
+          <p>My coursework goes below the browser too: a <b>multi-process game with shared memory and deadlock detection</b>, a <b>Xonix game built only on hand-made data structures</b>, and a full <b>enterprise network in Packet Tracer</b>.</p>
+          <div class="tags">
+            <span><i class="bi bi-geo-alt"></i> Islamabad, Pakistan</span>
+            <span><i class="bi bi-mortarboard"></i> BS CS, 2023 to present</span>
+            <span><i class="bi bi-briefcase"></i> Open to internships</span>
+          </div>
+        </div>
+        <div class="stats">
+          <div class="card stat rv d1"><b class="count" data-to="19">0</b><span>Projects built</span></div>
+          <div class="card stat rv d2"><b class="count" data-to="2">0</b><span>DataCamp certifications</span></div>
+          <div class="card stat rv d3"><b class="count" data-to="6">0</b><span>ML models compared in one project</span></div>
+          <div class="card stat rv d4"><b class="count" data-to="1">0</b><span>Frontend internship</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section">
+      <div class="sec-head rv"><p class="kicker">02 / skills</p><h2>My <em>toolkit</em></h2></div>
+      <div class="skill-grid">
+        <div class="card skill rv">
+          <div class="skill-ic"><i class="bi bi-window-stack"></i></div><h4>Web Development</h4>
+          <div class="pills"><span>React.js</span><span>JavaScript</span><span>Node.js</span><span>HTML &amp; CSS</span><span>Bootstrap</span><span>MUI</span><span>REST APIs</span><span>React Router</span><span>Hook Form</span></div>
+        </div>
+        <div class="card skill rv d1">
+          <div class="skill-ic"><i class="bi bi-terminal"></i></div><h4>Programming</h4>
+          <div class="pills"><span>C++</span><span>C</span><span>Python</span><span>PHP</span><span>Assembly (MASM x86)</span><span>POSIX threads</span></div>
+        </div>
+        <div class="card skill rv d2">
+          <div class="skill-ic"><i class="bi bi-robot"></i></div><h4>Machine Learning & AI</h4>
+          <div class="pills"><span>scikit-learn</span><span>pandas</span><span>matplotlib</span><span>TF-IDF text features</span><span>Model comparison</span><span>Ensembles</span><span>AI agent security</span><span>DataCamp AI Engineer (Assoc.)</span></div>
+        </div>
+        <div class="card skill rv d3">
+          <div class="skill-ic"><i class="bi bi-diagram-3"></i></div><h4>Data Structures & Algorithms</h4>
+          <div class="pills"><span>Linked Lists</span><span>Heaps</span><span>Hash Tables</span><span>Queues</span><span>Trees</span><span>Treap</span><span>Merkle Tree</span><span>Benchmarking</span></div>
+        </div>
+        <div class="card skill rv d4">
+          <div class="skill-ic"><i class="bi bi-hdd-network"></i></div><h4>Networking & Systems</h4>
+          <div class="pills"><span>DHCP</span><span>EIGRP</span><span>VLAN</span><span>Extended ACLs</span><span>Route redistribution</span><span>Docker</span><span>Shared memory</span><span>Semaphores</span></div>
+        </div>
+        <div class="card skill rv d5">
+          <div class="skill-ic"><i class="bi bi-tools"></i></div><h4>Tools</h4>
+          <div class="pills"><span>VS Code</span><span>Visual Studio</span><span>Git &amp; GitHub</span><span>npm</span><span>Packet Tracer</span><span>MATLAB</span><span>Proteus</span><span>SFML</span></div>
+        </div>
+        <div class="card skill rv">
+          <div class="skill-ic"><i class="bi bi-controller"></i></div><h4>Game Development</h4>
+          <div class="pills"><span>Game loop design</span><span>State management</span><span>SFML multimedia</span><span>Arcade mechanics</span></div>
+        </div>
+        <div class="card skill rv d1">
+          <div class="skill-ic"><i class="bi bi-vector-pen"></i></div><h4>UI / UX</h4>
+          <div class="pills"><span>Glassmorphism</span><span>Flexbox &amp; Grid</span><span>Typography</span><span>Responsive design</span><span>Mobile first</span></div>
+        </div>
+        <div class="card skill rv d2">
+          <div class="skill-ic"><i class="bi bi-people"></i></div><h4>Soft Skills</h4>
+          <div class="pills"><span>Teamwork</span><span>Communication</span><span>Research</span><span>Academic writing</span><span>Video editing</span><span>Teaching</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section">
+      <div class="sec-head rv"><p class="kicker">03 / projects</p><h2>Things I've <em>built</em></h2></div>
+      <div class="filters rv" id="filters">
+        <button class="on" data-f="all">All</button>
+        <button data-f="ai">AI &amp; ML</button>
+        <button data-f="web">Web</button>
+        <button data-f="sys">Systems & Algorithms</button>
+        <button data-f="game">Games</button>
+        <button data-f="net">Networking & Hardware</button>
+      </div>
+
+      <div class="proj-grid" id="projGrid">
+        <article class="card proj feature ml rv" data-c="ai">
+          <div class="proj-top"><span class="badge">Machine learning &middot; Python</span><i class="bi bi-bar-chart-line-fill"></i></div>
+          <h3>Text Classification with Machine Learning</h3>
+          <p class="sub">6 models, 5 topics, one honest test set</p>
+          <div class="ml-grid">
+            <div>
+              <p>A complete classification workflow on the public 20 Newsgroups sample dataset. I kept 5 topics (hockey, medicine, space, computer graphics, politics), giving 4,724 posts, and stripped headers, footers and quoted replies so the models had to learn from the real words.</p>
+              <p>Text became numbers with TF-IDF word scores. I then trained and compared Logistic Regression, Linear SVM, Naive Bayes, Random Forest, a Voting ensemble and a Stacking ensemble on identical data, with 80% for training and 20% (927 posts) held back for testing. The code is reusable on any CSV with a text column and a label column.</p>
+              <p class="note">Public sample dataset: the result is a benchmark, not a client result.</p>
+            </div>
+            <div class="results">
+              <div class="res-big"><b>89.97%</b><span>test accuracy &middot; best model: Linear SVM</span></div>
+              <div class="res-row"><span>Linear SVM</span><i style="--w:89.86%"></i><em>0.8986</em></div>
+              <div class="res-row"><span>Stacking</span><i style="--w:89.81%"></i><em>0.8981</em></div>
+              <div class="res-row"><span>Random Forest</span><i style="--w:84.41%" class="weak"></i><em>0.8441</em></div>
+              <p class="res-cap">Macro F1 on the held-out test set</p>
+              <div class="res-row"><span>Hockey (easiest)</span><i style="--w:93.9%"></i><em>185/197</em></div>
+              <div class="res-row"><span>Space (hardest)</span><i style="--w:83.4%" class="weak"></i><em>161/193</em></div>
+              <p class="res-cap">Correct predictions per topic. Most errors: space confused with graphics and medicine.</p>
+            </div>
+          </div>
+          <div class="stack"><span>Python</span><span>scikit-learn</span><span>pandas</span><span>matplotlib</span><span>joblib</span><span>Git</span></div>
+        </article>
+
+        <article class="card proj feature rv d1" data-c="ai">
+          <div class="proj-top"><span class="badge">Final Year Project &middot; Team</span><i class="bi bi-shield-exclamation"></i></div>
+          <h3>Kraken</h3>
+          <p class="sub">Adversarial security testing platform for e-commerce AI agents</p>
+          <p>My final year project at FAST NUCES, on protecting AI systems from adversarial attacks. Kraken tests agentic AI used in e-commerce, focusing on RAG poisoning, cross-agent attack surfaces, and the risks of agents calling third-party APIs.</p>
+          <div class="stack"><span>AI security</span><span>RAG poisoning</span><span>Agentic AI</span><span>Adversarial testing</span></div>
+        </article>
+
+        <article class="card proj feature rv" data-c="sys game">
+          <div class="proj-top"><span class="badge">Group project &middot; OS</span><i class="bi bi-cpu-fill"></i></div>
+          <h3>Chrono Rift</h3>
+          <p class="sub">Multi-process, multi-threaded 2D game</p>
+          <p>Three isolated processes (Arbiter, Human, Strategic) talking over shared memory, written in C++ with POSIX APIs. Mutex and semaphore synchronization, a thread per NPC, stamina-based scheduling, signal-based stun and ultimate moves (SIGALRM), deadlock detection and resolution through a global resource table, contiguous memory allocation with swap, and a non-blocking render thread. Containerized with Docker and a Makefile.</p>
+          <div class="stack"><span>C++</span><span>POSIX</span><span>Shared memory</span><span>Semaphores</span><span>Docker</span></div>
+        </article>
+
+        <article class="card proj feature rv d1" data-c="sys game">
+          <div class="proj-top"><span class="badge">Team project &middot; DSA</span><i class="bi bi-joystick"></i></div>
+          <h3>Xonix Game</h3>
+          <p class="sub">Arcade game built only on core data structures</p>
+          <p>Full Xonix in C++ with no built-in libraries: login and registration, three difficulty levels, simultaneous two-player on one board (arrows vs WASD), live leaderboard, matchmaking, friend system, profiles and save/load. Powered by Linked Lists, Heaps, Hash Tables, Queues and Trees.</p>
+          <div class="stack"><span>C++</span><span>Linked Lists</span><span>Heaps</span><span>Hash Tables</span><span>Trees</span></div>
+        </article>
+
+        <article class="card proj rv" data-c="sys">
+          <div class="proj-top"><span class="badge">DAA &middot; Group</span><i class="bi bi-bar-chart-steps"></i></div>
+          <h3>Comparative Algorithm Analysis</h3>
+          <p>Merkle Tree, Heap and Treap implemented and benchmarked. I built the Heap from scratch, wrote its complexity analysis and compared it empirically against the others.</p>
+          <div class="stack"><span>Heap</span><span>Treap</span><span>Merkle Tree</span><span>Big-O</span></div>
+        </article>
+
+        <article class="card proj rv d1" data-c="net">
+          <div class="proj-top"><span class="badge">CNET Lab</span><i class="bi bi-router"></i></div>
+          <h3>Network Topology in Packet Tracer</h3>
+          <p>Full topology with IP addressing based on roll numbers. DHCP, EIGRP, VLANs, Extended ACLs and route redistribution between routing protocols.</p>
+          <div class="stack"><span>DHCP</span><span>EIGRP</span><span>VLAN</span><span>ACLs</span></div>
+        </article>
+
+        <article class="card proj rv" data-c="ai sys">
+          <div class="proj-top"><span class="badge">Group project &middot; Security</span><i class="bi bi-diagram-3"></i></div>
+          <h3>IIoT Decentralized Identity Framework</h3>
+          <p>Single-zone identity management for industrial IoT: a fog node, Merkle proofs, credential revocation, attack analysis and performance evaluation.</p>
+          <div class="stack"><span>DID</span><span>Merkle proofs</span><span>Fog node</span><span>Revocation</span></div>
+        </article>
+
+        <article class="card proj rv d1" data-c="sys">
+          <div class="proj-top"><span class="badge">PDC</span><i class="bi bi-speedometer2"></i></div>
+          <h3>BLAS, pthreads and SpMV Performance Study</h3>
+          <p>DAXPY, DGEMV and DGEMM in serial, pthreads and pthreads with CPU affinity, benchmarked against OpenBLAS, plus sparse matrix-vector multiply (CSR) on the SuiteSparse webbase-1M matrix.</p>
+          <div class="stack"><span>C/C++</span><span>pthreads</span><span>OpenBLAS</span><span>CPU affinity</span></div>
+        </article>
+
+        <article class="card proj rv d2" data-c="web">
+          <div class="proj-top"><span class="badge">React</span><i class="bi bi-cup-hot"></i></div>
+          <h3>Brewery Explorer</h3>
+          <p>List and detail app on the OpenBreweryDB API with dynamic routing (useParams), loading states and reusable components.</p>
+          <div class="stack"><span>React</span><span>React Router</span><span>REST API</span></div>
+        </article>
+
+        <article class="card proj rv d3" data-c="web">
+          <div class="proj-top"><span class="badge">API</span><i class="bi bi-cloud-sun"></i></div>
+          <h3>Real-Time Weather App</h3>
+          <p>Search any city for live temperature, humidity, wind and feels-like data from OpenWeatherMap, in a glassmorphism UI with graceful error handling.</p>
+          <div class="stack"><span>JavaScript</span><span>OpenWeatherMap</span><span>Glassmorphism</span></div>
+        </article>
+
+        <article class="card proj rv" data-c="web">
+          <div class="proj-top"><span class="badge">Frontend</span><i class="bi bi-bag-heart"></i></div>
+          <h3>My Cloth: Fashion Store</h3>
+          <p>Responsive e-commerce site with structured product sections, interactive navigation, filters and a cart.</p>
+          <div class="stack"><span>HTML</span><span>CSS</span><span>Bootstrap</span><span>JS</span></div>
+        </article>
+
+        <article class="card proj rv d1" data-c="web">
+          <div class="proj-top"><span class="badge">Internship</span><i class="bi bi-check2-square"></i></div>
+          <h3>Todo App & Auth Forms</h3>
+          <p>Todo app plus login and signup systems with controlled forms and validation, built with React Hook Form and DOM validation logic.</p>
+          <div class="stack"><span>React</span><span>Hook Form</span><span>Validation</span></div>
+        </article>
+
+        <article class="card proj rv d2" data-c="game">
+          <div class="proj-top"><span class="badge">OOP</span><i class="bi bi-dpad"></i></div>
+          <h3>GameBoy Project</h3>
+          <p>Wordle, Hangman and Snake in one app with a navigable menu, background music and dynamic UI, built in C++ with SFML.</p>
+          <div class="stack"><span>C++</span><span>SFML</span><span>OOP</span></div>
+        </article>
+
+        <article class="card proj rv d3" data-c="game sys">
+          <div class="proj-top"><span class="badge">COAL</span><i class="bi bi-music-note-beamed"></i></div>
+          <h3>Zumba Game</h3>
+          <p>Interactive game in MASM x86 Assembly with movement logic and live user feedback, using low-level instructions only.</p>
+          <div class="stack"><span>MASM</span><span>x86</span></div>
+        </article>
+
+        <article class="card proj rv" data-c="game">
+          <div class="proj-top"><span class="badge">C++</span><i class="bi bi-bug"></i></div>
+          <h3>Centipede</h3>
+          <p>Classic arcade Centipede with smooth controls, shooting and score tracking around a clean game loop, without OOP.</p>
+          <div class="stack"><span>C++</span><span>Game loop</span></div>
+        </article>
+
+        <article class="card proj rv d1" data-c="game">
+          <div class="proj-top"><span class="badge">C++</span><i class="bi bi-grid-3x3-gap"></i></div>
+          <h3>Candy Crush-Inspired Game</h3>
+          <p>Match-three puzzle with tile swapping, grid matching and scoring on 2D arrays.</p>
+          <div class="stack"><span>C++</span><span>2D arrays</span></div>
+        </article>
+
+        <article class="card proj rv d2" data-c="net">
+          <div class="proj-top"><span class="badge">DLD</span><i class="bi bi-123"></i></div>
+          <h3>Digital Counter 00 to 99</h3>
+          <p>Push-button two-digit counter with reset, built from logic gates and simulated in Proteus.</p>
+          <div class="stack"><span>Proteus</span><span>Logic gates</span><span>Sequential logic</span></div>
+        </article>
+
+        <article class="card proj rv d3" data-c="game sys">
+          <div class="proj-top"><span class="badge">C++ / SFML</span><i class="bi bi-person-lock"></i></div>
+          <h3>Login System</h3>
+          <p>Registration and login with validation, password masking, admin listing and persistent file storage.</p>
+          <div class="stack"><span>C++</span><span>SFML</span><span>File I/O</span></div>
+        </article>
+
+        <article class="card proj rv" data-c="web">
+          <div class="proj-top"><span class="badge">You're here</span><i class="bi bi-stars"></i></div>
+          <h3>This Portfolio</h3>
+          <p>Hand-coded dark portfolio with scroll reveals, project filters and a terminal-style hero, written in plain HTML, CSS and JavaScript.</p>
+          <div class="stack"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+        </article>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="journey" class="section">
+      <div class="sec-head rv"><p class="kicker">04 / experience</p><h2>Work & <em>education</em></h2></div>
+      <div class="timeline">
+        <div class="tl-item rv"><span class="dot"></span>
+          <div class="card">
+            <span class="date">Jun &ndash; Aug 2025</span>
+            <h4>Web Developer Intern</h4>
+            <p class="who">RISETech Pvt. Ltd., NUST EME Campus</p>
+            <ul>
+              <li>Built a portfolio site, real-time weather app (OpenWeatherMap), brewery list/detail app (OpenBreweryDB), a Todo app and login/signup systems.</li>
+              <li>React.js with functional components, hooks (useState, useEffect, useMemo, useContext), React Router and React Hook Form.</li>
+              <li>Integrated REST APIs with fetch, handled promises and loading states, and built dynamic list and detail pages.</li>
+              <li>Component architecture, controlled forms, dynamic routing, npm, browser debugging and GitHub workflow.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="tl-item rv"><span class="dot"></span>
+          <div class="card">
+            <span class="date">Aug 2023 &ndash; Present</span>
+            <h4>BS Computer Science</h4>
+            <p class="who">FAST NUCES, Islamabad</p>
+            <p>Final semester. Coursework spans OOP, data structures, algorithms, operating systems, computer networks, parallel computing, assembly and digital logic. Final year project: Kraken, an AI agent security platform.</p>
+          </div>
+        </div>
+        <div class="tl-item rv"><span class="dot"></span>
+          <div class="card">
+            <span class="date">Sep &ndash; Nov 2024</span>
+            <h4>Volunteer Educator</h4>
+            <p class="who">StepAhead Welfare Society, Rawalpindi</p>
+            <p>Weekly sessions on basic education and computer literacy for underprivileged children, planned and delivered with a team of university students.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CERTIFICATIONS -->
+    <section id="certs" class="section">
+      <div class="sec-head rv"><p class="kicker">05 / certifications</p><h2>Professional <em>certifications</em></h2></div>
+
+      <div class="cert-row">
+        <div class="card cert rv">
+          <div class="cert-badge"><i class="bi bi-patch-check-fill"></i></div>
+          <span class="date">Certified Sep 26, 2026</span>
+          <h3>AI Engineer for Developers <em>Associate</em></h3>
+          <p class="who">DataCamp</p>
+          <p class="idline">Credential ID <code>AIEDA0010987089658</code></p>
+          <a href="assets/DataCamp_AI_Engineer_for_Developers_Associate.pdf" target="_blank" rel="noopener" class="link">View certificate <i class="bi bi-arrow-up-right"></i></a>
+        </div>
+        <div class="card cert rv d1">
+          <div class="cert-badge alt"><i class="bi bi-lightning-charge-fill"></i></div>
+          <span class="date">Completed Sep 27, 2026</span>
+          <h3>Introduction to AI <em>for Work</em></h3>
+          <p class="who">DataCamp &middot; 2 to 3 hours</p>
+          <p class="idline">Certificate #549,207</p>
+          <a href="assets/DataCamp_Intro_to_AI_for_Work.pdf" target="_blank" rel="noopener" class="link">View certificate <i class="bi bi-arrow-up-right"></i></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section">
+      <div class="sec-head rv"><p class="kicker">06 / contact</p><h2>Let's <em>build something</em></h2></div>
+      <div class="contact-grid">
+        <div class="rv">
+          <p class="lead">I'm looking for internships and entry-level roles in frontend development, with room to grow into machine learning. Send me a message or find me on LinkedIn.</p>
+          <a class="info" href="https://mail.google.com/mail/?view=cm&fs=1&to=iamiman.is04@gmail.com" target="_blank" rel="noopener"><i class="bi bi-envelope-fill"></i><span>iamiman.is04@gmail.com</span></a>
+          <div class="info"><i class="bi bi-geo-alt-fill"></i><span>Islamabad, Pakistan</span></div>
+          <div class="socials">
+            <a href="https://github.com/ImaanSuleiman" target="_blank" rel="noopener" aria-label="GitHub"><i class="bi bi-github"></i></a>
+            <a href="https://www.linkedin.com/in/iman-suleman-ba6778347/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+            <a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+          </div>
+        </div>
+        <form class="card form rv d1" id="form">
+          <label>Your name<input type="text" id="name" placeholder="Enter your name" required /></label>
+          <label>Your email<input type="email" id="email" placeholder="you@example.com" required /></label>
+          <label>Message<textarea id="message" rows="5" placeholder="Tell me about your project..." required></textarea></label>
+          <button type="submit" class="btn primary"><span>Send message</span><i class="bi bi-send"></i></button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <img src="assets/signature.png" alt="Iman Suleman" />
+    <p>&copy; <span id="yr">2026</span> Iman Suleman. Built by hand with HTML, CSS and JavaScript.</p>
+  </footer>
+
+  <button class="to-top" id="toTop" aria-label="Back to top"><i class="bi bi-arrow-up"></i></button>
+  <script src="script.js"></script>
+</body>
+</html>

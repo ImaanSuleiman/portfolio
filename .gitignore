@@ -1,0 +1,7 @@
+_tmp/
+_tmp2/
+portfolio/
+*.zip
+assets/ImanSuleman_CV.docx
+.DS_Store
+Thumbs.db
