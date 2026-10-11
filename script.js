@@ -40,7 +40,7 @@
   $$('.rv').forEach(el => rev.observe(el));
 
   // role typer
-  const roles = ['Frontend Developer', 'React + JavaScript', 'Machine Learning projects', 'AI Engineer for Developers (Associate)', 'AI security researcher'];
+  const roles = ['Frontend Developer', 'React + JavaScript', 'Machine Learning projects', 'AI Engineer for Developers (Associate)'];
   const t = $('#typed'); let wi = 0, ci = 0, del = false;
   (function type() {
     const w = roles[wi];
@@ -60,7 +60,7 @@
     '  studying<span class="p">:</span> <span class="s">"BS CS @ FAST NUCES"</span><span class="p">,</span>',
     '  stack<span class="p">:</span> <span class="p">[</span><span class="s">"React"</span><span class="p">,</span> <span class="s">"JS"</span><span class="p">,</span> <span class="s">"C++"</span><span class="p">],</span>',
     '  certified<span class="p">:</span> <span class="s">"DataCamp AI Engineer"</span><span class="p">,</span>',
-    '  focus<span class="p">:</span> <span class="s">"ML + AI security"</span><span class="p">,</span>',
+    '  focus<span class="p">:</span> <span class="s">"Machine Learning"</span><span class="p">,</span>',
     '  hireable<span class="p">:</span> <span class="n">true</span><span class="p">,</span>',
     '<span class="p">};</span>'
   ];
